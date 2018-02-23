@@ -7,6 +7,6 @@ void main()
 	scanf("%s %d",str,&k);
 	for(i=0;i<k;i++)
 	{
-		printf("\n%c",str[i]);
+		printf("%c",str[i]);
 	}
 }
