@@ -10,9 +10,9 @@ printf("Before swap");
 printf("\n %d",a);
 printf(" %d",b);
 }
-temp=a;
-a=b;
-b=temp;
+temp=&a;
+&a=&b;
+&b=temp;
 {
 printf("\nAfter swap");
 printf("\n %d",a);
