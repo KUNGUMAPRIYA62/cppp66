@@ -1,11 +1,21 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+void main() 
 {
-int a,b,c,d,e,f,g,h,i,j,max;
-printf("enter ten numbers");
-scanf("%d",&ten numbers);
+int array[20];
+int n,i,max=array[0];
+printf("enter the number of elements:");
+scanf("%d",&n);
+printf("\n enter the array elements:");
+for(i=0;i<n;i++)
 {
-for(i=0;i<10;i++);
+scanf("%d",&array[i]);
 }
-printf("maximum among all ten numbers=%d",max);
+for(i=0;i<n;i++)
+{
+if(array[i]>max)
+{
+max=array[i];
+}
+}
+printf("\nthe maximum of the numbers is:%d",max);
 }
