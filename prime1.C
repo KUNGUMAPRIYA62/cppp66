@@ -4,7 +4,7 @@ void main()
 int a;
 printf("Enter the number:");
 scanf("%d",&a);
-if((a/1)||(a/a))
+if((a%1)||(a%a))
 {
   printf("prime number");
 }
